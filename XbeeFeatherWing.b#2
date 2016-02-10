@@ -154,10 +154,10 @@
 </layers>
 <board>
 <plain>
-<wire x1="2.54" y1="-7.62" x2="0" y2="59.69" width="0.254" layer="20"/>
+<wire x1="0" y1="-6.35" x2="0" y2="59.69" width="0.254" layer="20"/>
 <wire x1="0" y1="59.69" x2="124.46" y2="59.69" width="0.254" layer="20"/>
 <wire x1="124.46" y1="59.69" x2="124.46" y2="-6.35" width="0.254" layer="20"/>
-<wire x1="124.46" y1="-6.35" x2="2.54" y2="-7.62" width="0.254" layer="20"/>
+<wire x1="124.46" y1="-6.35" x2="0" y2="-6.35" width="0.254" layer="20"/>
 <wire x1="40.8432" y1="25.6286" x2="44.0436" y2="21.971" width="0.254" layer="21"/>
 <wire x1="40.8432" y1="4.8768" x2="44.0944" y2="8.6106" width="0.254" layer="21"/>
 <wire x1="18.4404" y1="2.9972" x2="15.0114" y2="2.9972" width="0.254" layer="21"/>
@@ -428,39 +428,6 @@ by exp-lbrs.ulp</description>
 </package>
 </packages>
 </library>
-<library name="adafruit">
-<packages>
-<package name="XBEE">
-<wire x1="-12.5" y1="-14" x2="12.5" y2="-14" width="0.127" layer="21"/>
-<wire x1="12.5" y1="-14" x2="12.5" y2="7" width="0.127" layer="21"/>
-<wire x1="12.5" y1="7" x2="4.5" y2="13.5" width="0.127" layer="21"/>
-<wire x1="4.5" y1="13.5" x2="-5" y2="13.5" width="0.127" layer="21"/>
-<wire x1="-5" y1="13.5" x2="-12.5" y2="7" width="0.127" layer="21"/>
-<wire x1="-12.5" y1="7" x2="-12.5" y2="-14" width="0.127" layer="21"/>
-<pad name="10" x="-11" y="-12.5" drill="0.7" diameter="1.4224"/>
-<pad name="9" x="-11" y="-10.5" drill="0.7" diameter="1.4224"/>
-<pad name="8" x="-11" y="-8.5" drill="0.7" diameter="1.4224"/>
-<pad name="7" x="-11" y="-6.5" drill="0.7" diameter="1.4224"/>
-<pad name="6" x="-11" y="-4.5" drill="0.7" diameter="1.4224"/>
-<pad name="5" x="-11" y="-2.5" drill="0.7" diameter="1.4224"/>
-<pad name="4" x="-11" y="-0.5" drill="0.7" diameter="1.4224"/>
-<pad name="3" x="-11" y="1.5" drill="0.7" diameter="1.4224"/>
-<pad name="2" x="-11" y="3.5" drill="0.7" diameter="1.4224"/>
-<pad name="1" x="-11" y="5.5" drill="0.7" diameter="1.4224" shape="square"/>
-<pad name="11" x="11" y="-12.5" drill="0.7" diameter="1.4224"/>
-<pad name="12" x="11" y="-10.5" drill="0.7" diameter="1.4224"/>
-<pad name="13" x="11" y="-8.5" drill="0.7" diameter="1.4224"/>
-<pad name="14" x="11" y="-6.5" drill="0.7" diameter="1.4224"/>
-<pad name="15" x="11" y="-4.5" drill="0.7" diameter="1.4224"/>
-<pad name="16" x="11" y="-2.5" drill="0.7" diameter="1.4224"/>
-<pad name="17" x="11" y="-0.5" drill="0.7" diameter="1.4224"/>
-<pad name="18" x="11" y="1.5" drill="0.7" diameter="1.4224"/>
-<pad name="19" x="11" y="3.5" drill="0.7" diameter="1.4224"/>
-<pad name="20" x="11" y="5.5" drill="0.7" diameter="1.4224"/>
-<text x="-3" y="-16" size="1.27" layer="25">&gt;NAME</text>
-</package>
-</packages>
-</library>
 </libraries>
 <attributes>
 </attributes>
@@ -671,7 +638,6 @@ design rules under a new name.</description>
 <element name="SJ1" library="SparkFun" package="SJ_2S" value="D_TX" x="3.81" y="45.72" rot="R180"/>
 <element name="SJ3" library="SparkFun" package="SJ_2S" value="D_RX" x="7.62" y="45.72" rot="R180"/>
 <element name="MS2" library="Proto FeatherWing" package="MICROSHIELD_DIM" value="MICROSHIELD_NODIM" x="54.61" y="0"/>
-<element name="U$1" library="adafruit" package="XBEE" value="XBEE" x="-12.7" y="10.16"/>
 </elements>
 <signals>
 <signal name="GND">
@@ -682,14 +648,12 @@ design rules under a new name.</description>
 <contactref element="MS2" pad="4"/>
 <contactref element="MS2" pad="27"/>
 <contactref element="U2" pad="10"/>
-<contactref element="U$1" pad="10"/>
 <wire x1="56.3238" y1="50.5714" x2="56.3492" y2="56.7944" width="0" layer="19" extent="1-1"/>
 <wire x1="56.3492" y1="48.4632" x2="56.3238" y2="50.5714" width="0" layer="19" extent="1-1"/>
 <wire x1="73.66" y1="21.59" x2="56.3492" y2="48.4632" width="0" layer="19" extent="1-1"/>
 <wire x1="68.58" y1="1.27" x2="73.66" y2="21.59" width="0" layer="19" extent="1-1"/>
 <wire x1="18.8214" y1="51.181" x2="56.3238" y2="50.5714" width="0" layer="19" extent="1-1"/>
 <wire x1="21.05" y1="24.74" x2="18.8214" y2="51.181" width="0" layer="19" extent="1-1"/>
-<wire x1="-23.7" y1="-2.34" x2="21.05" y2="24.74" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$38">
 <contactref element="R11" pad="1"/>
@@ -710,19 +674,15 @@ design rules under a new name.</description>
 <contactref element="LED3" pad="C"/>
 <contactref element="U2" pad="3"/>
 <contactref element="S2" pad="5"/>
-<contactref element="U$1" pad="3"/>
 <wire x1="56.3238" y1="54.7624" x2="81.28" y2="54.895" width="0" layer="19" extent="1-1"/>
 <wire x1="35.05" y1="27.74" x2="56.3238" y2="54.7624" width="0" layer="19" extent="1-1"/>
-<wire x1="-23.7" y1="11.66" x2="35.05" y2="27.74" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="DOUT">
 <contactref element="LED2" pad="C"/>
 <contactref element="U2" pad="2"/>
 <contactref element="S2" pad="2"/>
-<contactref element="U$1" pad="2"/>
 <wire x1="56.3492" y1="52.6796" x2="81.28" y2="49.245" width="0" layer="19" extent="1-1"/>
 <wire x1="37.05" y1="24.74" x2="56.3492" y2="52.6796" width="0" layer="19" extent="1-1"/>
-<wire x1="-23.7" y1="13.66" x2="37.05" y2="24.74" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="3.3V">
 <contactref element="U2" pad="1"/>
@@ -730,19 +690,15 @@ design rules under a new name.</description>
 <contactref element="R3" pad="1"/>
 <contactref element="R1" pad="1"/>
 <contactref element="MS2" pad="2"/>
-<contactref element="U$1" pad="1"/>
 <wire x1="64.985" y1="52.7558" x2="64.985" y2="54.8132" width="0" layer="19" extent="1-1"/>
 <wire x1="64.9088" y1="48.6156" x2="64.985" y2="52.7558" width="0" layer="19" extent="1-1"/>
 <wire x1="39.05" y1="27.74" x2="64.9088" y2="48.6156" width="0" layer="19" extent="1-1"/>
 <wire x1="63.5" y1="1.27" x2="39.05" y2="27.74" width="0" layer="19" extent="1-1"/>
-<wire x1="-23.7" y1="15.66" x2="39.05" y2="27.74" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="DIO5">
 <contactref element="U2" pad="15"/>
 <contactref element="R2" pad="2"/>
-<contactref element="U$1" pad="15"/>
 <wire x1="29.05" y1="2.74" x2="64.9596" y2="50.6476" width="0" layer="19" extent="1-1"/>
-<wire x1="-1.7" y1="5.66" x2="29.05" y2="2.74" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="DIO3">
 <contactref element="U2" pad="17"/>
@@ -752,9 +708,7 @@ design rules under a new name.</description>
 <signal name="RSSI">
 <contactref element="U2" pad="6"/>
 <contactref element="R4" pad="2"/>
-<contactref element="U$1" pad="6"/>
 <wire x1="29.05" y1="24.74" x2="64.985" y2="56.896" width="0" layer="19" extent="1-1"/>
-<wire x1="-23.7" y1="5.66" x2="29.05" y2="24.74" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$2">
 <contactref element="LED4" pad="A"/>
@@ -816,9 +770,6 @@ design rules under a new name.</description>
 <contactref element="S2" pad="3"/>
 <contactref element="SJ3" pad="2"/>
 <wire x1="7.2081" y1="45.72" x2="78.78" y2="49.245" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$8">
-<contactref element="U$1" pad="17"/>
 </signal>
 </signals>
 </board>

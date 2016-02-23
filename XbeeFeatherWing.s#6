@@ -1725,8 +1725,8 @@ by exp-lbrs.ulp</description>
 <instance part="LED3" gate="G$1" x="20.32" y="157.48"/>
 <instance part="R1" gate="G$1" x="10.16" y="167.64" rot="R270"/>
 <instance part="R3" gate="G$1" x="20.32" y="167.64" rot="R270"/>
-<instance part="U2" gate="G$1" x="127" y="134.62"/>
-<instance part="P+1" gate="G$1" x="104.14" y="147.32"/>
+<instance part="U2" gate="G$1" x="142.24" y="134.62"/>
+<instance part="P+1" gate="G$1" x="119.38" y="147.32"/>
 <instance part="LED4" gate="G$1" x="33.02" y="157.48"/>
 <instance part="R4" gate="G$1" x="33.02" y="167.64" rot="R90"/>
 <instance part="GND4" gate="1" x="33.02" y="147.32"/>
@@ -1785,8 +1785,8 @@ by exp-lbrs.ulp</description>
 <wire x1="76.2" y1="88.9" x2="78.74" y2="88.9" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="106.68" y1="121.92" x2="104.14" y2="121.92" width="0.1524" layer="91"/>
-<label x="104.14" y="121.92" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="121.92" y1="121.92" x2="119.38" y2="121.92" width="0.1524" layer="91"/>
+<label x="119.38" y="121.92" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="U2" gate="G$1" pin="GND"/>
 </segment>
 </net>
@@ -1819,8 +1819,8 @@ by exp-lbrs.ulp</description>
 </segment>
 <segment>
 <pinref part="U2" gate="G$1" pin="DIN"/>
-<wire x1="106.68" y1="139.7" x2="104.14" y2="139.7" width="0.1524" layer="91"/>
-<label x="104.14" y="139.7" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="121.92" y1="139.7" x2="119.38" y2="139.7" width="0.1524" layer="91"/>
+<label x="119.38" y="139.7" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <wire x1="83.82" y1="167.64" x2="81.28" y2="167.64" width="0.1524" layer="91"/>
@@ -1836,8 +1836,8 @@ by exp-lbrs.ulp</description>
 </segment>
 <segment>
 <pinref part="U2" gate="G$1" pin="DOUT"/>
-<wire x1="106.68" y1="142.24" x2="104.14" y2="142.24" width="0.1524" layer="91"/>
-<label x="104.14" y="142.24" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="121.92" y1="142.24" x2="119.38" y2="142.24" width="0.1524" layer="91"/>
+<label x="119.38" y="142.24" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <wire x1="83.82" y1="175.26" x2="81.28" y2="175.26" width="0.1524" layer="91"/>
@@ -1847,8 +1847,8 @@ by exp-lbrs.ulp</description>
 </net>
 <net name="3.3V" class="0">
 <segment>
-<wire x1="106.68" y1="144.78" x2="104.14" y2="144.78" width="0.1524" layer="91"/>
-<wire x1="104.14" y1="144.78" x2="104.14" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="144.78" x2="119.38" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="119.38" y1="144.78" x2="119.38" y2="147.32" width="0.1524" layer="91"/>
 <pinref part="U2" gate="G$1" pin="VDD"/>
 <pinref part="P+1" gate="G$1" pin="3.3V"/>
 </segment>
@@ -1876,8 +1876,8 @@ by exp-lbrs.ulp</description>
 </net>
 <net name="DIO5" class="0">
 <segment>
-<wire x1="149.86" y1="132.08" x2="147.32" y2="132.08" width="0.1524" layer="91"/>
-<label x="149.86" y="132.08" size="1.27" layer="95" xref="yes"/>
+<wire x1="165.1" y1="132.08" x2="162.56" y2="132.08" width="0.1524" layer="91"/>
+<label x="165.1" y="132.08" size="1.27" layer="95" xref="yes"/>
 <pinref part="U2" gate="G$1" pin="DIO5"/>
 </segment>
 <segment>
@@ -1888,8 +1888,8 @@ by exp-lbrs.ulp</description>
 </net>
 <net name="DIO3" class="0">
 <segment>
-<wire x1="149.86" y1="137.16" x2="147.32" y2="137.16" width="0.1524" layer="91"/>
-<label x="149.86" y="137.16" size="1.27" layer="95" xref="yes"/>
+<wire x1="165.1" y1="137.16" x2="162.56" y2="137.16" width="0.1524" layer="91"/>
+<label x="165.1" y="137.16" size="1.27" layer="95" xref="yes"/>
 <pinref part="U2" gate="G$1" pin="DIO3"/>
 </segment>
 <segment>
@@ -1900,8 +1900,8 @@ by exp-lbrs.ulp</description>
 </net>
 <net name="RSSI" class="0">
 <segment>
-<wire x1="106.68" y1="132.08" x2="104.14" y2="132.08" width="0.1524" layer="91"/>
-<label x="104.14" y="132.08" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="121.92" y1="132.08" x2="119.38" y2="132.08" width="0.1524" layer="91"/>
+<label x="119.38" y="132.08" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="U2" gate="G$1" pin="RSSI"/>
 </segment>
 <segment>

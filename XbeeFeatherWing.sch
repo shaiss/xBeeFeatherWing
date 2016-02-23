@@ -1494,7 +1494,7 @@ by exp-lbrs.ulp</description>
 <instance part="S1" gate="G$1" x="83.82" y="81.28" smashed="yes" rot="R180">
 <attribute name="NAME" x="86.36" y="78.74" size="1.778" layer="95" rot="R180"/>
 </instance>
-<instance part="GND8" gate="1" x="93.98" y="81.28" rot="R90"/>
+<instance part="GND8" gate="1" x="99.06" y="81.28" rot="R90"/>
 <instance part="SJ2" gate="1" x="12.7" y="114.3" rot="R90"/>
 <instance part="C4" gate="G$1" x="12.7" y="96.52" rot="R180"/>
 <instance part="LED5" gate="G$1" x="60.96" y="157.48"/>
@@ -1526,7 +1526,7 @@ by exp-lbrs.ulp</description>
 <pinref part="GND4" gate="1" pin="GND"/>
 </segment>
 <segment>
-<wire x1="88.9" y1="81.28" x2="91.44" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="81.28" x2="96.52" y2="81.28" width="0.1524" layer="91"/>
 <pinref part="S1" gate="G$1" pin="1"/>
 <pinref part="GND8" gate="1" pin="GND"/>
 </segment>
@@ -1652,6 +1652,11 @@ by exp-lbrs.ulp</description>
 <pinref part="SJ2" gate="1" pin="2"/>
 <label x="12.7" y="127" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="AD3/DIO3"/>
+<wire x1="210.82" y1="144.78" x2="213.36" y2="144.78" width="0.1524" layer="91"/>
+<label x="213.36" y="144.78" size="1.27" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="RSSI" class="0">
 <segment>
@@ -1759,12 +1764,6 @@ by exp-lbrs.ulp</description>
 <wire x1="93.98" y1="172.72" x2="111.76" y2="172.72" width="0.1524" layer="91"/>
 <pinref part="S2" gate="G$1" pin="3"/>
 <pinref part="SJ3" gate="1" pin="2"/>
-</segment>
-</net>
-<net name="N$8" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="AD3/DIO3"/>
-<wire x1="210.82" y1="144.78" x2="213.36" y2="144.78" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
